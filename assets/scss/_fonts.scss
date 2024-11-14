@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'minefite';
+  src:  url('../fonts/icons/minefite.eot?v5zd9h');
+  src:  url('../fonts/icons/minefite.eot?v5zd9h#iefix') format('embedded-opentype'),
+    url('../fonts/icons/minefite.ttf?v5zd9h') format('truetype'),
+    url('../fonts/icons/minefite.woff?v5zd9h') format('woff'),
+    url('../fonts/icons/minefite.svg?v5zd9h#minefite') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'minefite' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forume:before {
+  content: "\e900";
+}
+.icon-light:before {
+  content: "\e901";
+}
+.icon-link:before {
+  content: "\e902";
+}
+.icon-lk:before {
+  content: "\e903";
+}
+.icon-map:before {
+  content: "\e904";
+}
+.icon-mark-down:before {
+  content: "\e905";
+}
+.icon-mark-up:before {
+  content: "\e906";
+}
+.icon-noview:before {
+  content: "\e907";
+}
+.icon-open-all:before {
+  content: "\e908";
+}
+.icon-play-start:before {
+  content: "\e909";
+}
+.icon-rulers:before {
+  content: "\e90a";
+}
+.icon-separation:before {
+  content: "\e90b";
+}
+.icon-user:before {
+  content: "\e90c";
+}
+.icon-view:before {
+  content: "\e90d";
+}
+.icon-admin-panel:before {
+  content: "\e90e";
+}
+.icon-arrow-left:before {
+  content: "\e90f";
+}
+.icon-arrow-right:before {
+  content: "\e910";
+}
+.icon-burger:before {
+  content: "\e911";
+}
+.icon-calendar:before {
+  content: "\e912";
+}
+.icon-close:before {
+  content: "\e913";
+}
+.icon-dark:before {
+  content: "\e914";
+}
+.icon-dev:before {
+  content: "\e915";
+}
+.icon-donate:before {
+  content: "\e916";
+}
+.icon-download:before {
+  content: "\e917";
+}
+.icon-exit:before {
+  content: "\e918";
+}
