@@ -86,12 +86,10 @@
 	}
 
 	&.__disabled,
-	&.__disabled:hover,
-	&.__disabled:active,
-	&.__disabled:focus {
+	&:disabled {
 		cursor: default !important;
 		opacity: 0.2 !important;
-		box-shadow: none !important;
+		pointer-events: none !important;
 	}
 }
 
