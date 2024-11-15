@@ -1,0 +1,19 @@
+.nav-header {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+
+	.nav_link {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		color: rgb(255, 255, 255);
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	@include media-breakpoint-down(lg) {
+		display: none;
+	}
+}
